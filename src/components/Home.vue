@@ -47,7 +47,6 @@ export default {
     },
     addOrder(order) {
       this.orderSelected.push(order);
-      sessionStorage.setItem('orders', JSON.stringify(this.orderSelected));
     },
     orderClicked(order) {
       this.orderNumber = order.number;
